@@ -9,7 +9,7 @@ print("=" * 50)
 a = 15
 b = 4
 
-print(f"a = {a}, b = {b}")
+print(f"a = {a}, b = {b}") # a = 15, b = 4
 print()
 
 # Addition (+)
@@ -49,6 +49,7 @@ print()
 print("=" * 50)
 print("DEMO 2: Interactive Calculator")
 print("=" * 50)
+
 
 # รับ input จากผู้ใช้
 num1 = float(input("Enter first number: "))
