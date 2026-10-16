@@ -39,7 +39,11 @@ def greet_person(name):
     print(f"Hello, {name}! Nice to meet you.")
 
 print("Calling greet_person with different names:")
+<<<<<<< HEAD
 greet_person(5)
+=======
+greet_person("Alice")
+>>>>>>> upstream/main
 greet_person("Bob")
 greet_person("Charlie")
 print()
@@ -106,8 +110,12 @@ print()
 # Example 3: Using returned values in expressions
 def multiply(x, y):
     """Multiplies two numbers"""
+<<<<<<< HEAD
     result = x * y
     return result
+=======
+    return x * y
+>>>>>>> upstream/main
 
 def square(n):
     """Returns the square of a number"""
@@ -118,11 +126,14 @@ result = multiply(4, 5) + square(3)
 print(f"multiply(4, 5) + square(3) = {multiply(4, 5)} + {square(3)} = {result}")
 print()
 
+<<<<<<< HEAD
 # จงหาผลรันโปรแกรมใน Example 3: ด้านบน
 """
 
 """
 
+=======
+>>>>>>> upstream/main
 # =============================================================================
 # PART 4: DEFAULT PARAMETERS
 # =============================================================================

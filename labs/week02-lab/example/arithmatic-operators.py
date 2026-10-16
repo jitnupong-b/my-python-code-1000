@@ -9,7 +9,11 @@ print("=" * 50)
 a = 15
 b = 4
 
+<<<<<<< HEAD
 print(f"a = {a}, b = {b}") # a = 15, b = 4
+=======
+print(f"a = {a}, b = {b}")
+>>>>>>> upstream/main
 print()
 
 # Addition (+)
@@ -50,7 +54,10 @@ print("=" * 50)
 print("DEMO 2: Interactive Calculator")
 print("=" * 50)
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> upstream/main
 # รับ input จากผู้ใช้
 num1 = float(input("Enter first number: "))
 num2 = float(input("Enter second number: "))

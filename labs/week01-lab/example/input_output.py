@@ -1,4 +1,7 @@
+<<<<<<< HEAD
 """ 
+=======
+>>>>>>> upstream/main
 # Exercise 1: Basic Input
 # Ask the user for their name and greet them
 print("=== Exercise 1: Basic Input ===")
@@ -14,7 +17,10 @@ age = int(age_string)  # Convert string to integer
 print("You are", age, "years old")
 print("Next year you will be", age + 1, "years old")
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> upstream/main
 # Exercise 3: Multiple Inputs
 print("\n=== Exercise 3: Multiple Inputs ===")
 first_name = input("Enter your first name: ")
@@ -76,8 +82,11 @@ print("Favorite Color:", color)
 print("Hometown:", hometown)
 print("Thank you for sharing!")
 
+<<<<<<< HEAD
 """
 
+=======
+>>>>>>> upstream/main
 # Exercise 7: Simple Calculator
 print("\n=== Exercise 7: Simple Calculator ===")
 # Ask user for two numbers and an operation
@@ -99,7 +108,10 @@ elif operation == "/":
 else:
     result = "Invalid operation"
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> upstream/main
 print("Result:", number1, operation, number2, "=", result)
 
 # Exercise 8: Practice Problems

@@ -3,12 +3,15 @@ age = int(input("Enter your age: "))
 if age >= 18:
     print("You are an adult")
 
+<<<<<<< HEAD
 """
 if (age >= 18) {
     printf("You are an adult);
 }
 """
 
+=======
+>>>>>>> upstream/main
 # if-else statement
 temperature = 25
 if temperature > 30:

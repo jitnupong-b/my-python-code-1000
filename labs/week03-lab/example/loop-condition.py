@@ -9,10 +9,13 @@
 # demo_for_basic.py
 print("=== Demo 1: Basic For Loop ===")
 
+<<<<<<< HEAD
 print(range(5))
 print(range(1, 5))
 print(range(1, 5, 2))
 
+=======
+>>>>>>> upstream/main
 # Loop ผ่านตัวเลข
 print("นับจาก 1 ถึง 5:")
 for i in range(1, 6):
@@ -46,9 +49,12 @@ while count <= 5:
     print(f"รอบที่ {count}")
     count += 1  # เพิ่มค่า count
 
+<<<<<<< HEAD
 for i in range(5):
     print(f"รอบที่ {i}")
 
+=======
+>>>>>>> upstream/main
 print("\nDemo while กับ input (จำลอง):")
 # จำลองการใช้งานโดยไม่ต้อง input จริง
 responses = ["hello", "world", "quit"]

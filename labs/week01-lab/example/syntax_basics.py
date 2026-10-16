@@ -33,10 +33,15 @@ print("Type of my_boolean:", type(my_boolean))
 first_name = "John"
 last_name = "Doe"
 
+<<<<<<< HEAD
 grade = 'A'
 
 # Concatenate strings
 full_name = first_name + "%%%" + last_name
+=======
+# Concatenate strings
+full_name = first_name + " " + last_name
+>>>>>>> upstream/main
 print("Full name:", full_name)
 
 # String length
@@ -53,7 +58,11 @@ print("Multiplication:", num1 * num2)
 print("Division:", num1 / num2)
 print("Integer Division:", num1 // num2)
 print("Remainder (Modulo):", num1 % num2)
+<<<<<<< HEAD
 print("Power:", num1 ** 3)
+=======
+print("Power:", num1 ** num2)
+>>>>>>> upstream/main
 
 # Exercise 5: Variable Reassignment
 # Start with a variable and change its value
@@ -79,6 +88,7 @@ print("a =", a, "b =", b, "c =", c)
 # Complete the following assignments:
 
 # String variable containing your favorite color
+<<<<<<< HEAD
 favorite_color = "Green"
 
 # Integer variable with the current year
@@ -89,6 +99,18 @@ favorite_number = 4.00
 
 # Boolean variable indicating if you like pizza
 likes_pizza = False
+=======
+favorite_color = 
+
+# Integer variable with the current year
+current_year = 
+
+# Float variable with your favorite number (with decimal)
+favorite_number = 
+
+# Boolean variable indicating if you like pizza
+likes_pizza = 
+>>>>>>> upstream/main
 
 # Print all variables with descriptive messages
 print("My favorite color is:", favorite_color)
