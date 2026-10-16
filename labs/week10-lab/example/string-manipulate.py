@@ -5,6 +5,12 @@
 # 1. STRING CREATION AND BASIC OPERATIONS
 # ===========================
 
+"""
+    sdfjksja;f
+    saklfj;lskdf
+    sa;fkj;sla
+"""
+
 print("=== STRING CREATION ===")
 # Different ways to create strings
 name = "India"
@@ -116,6 +122,7 @@ print(f"{count} letters 'l' found in '{text}'")
 # ===========================
 
 print("\n=== MEMBERSHIP TEST ===")
+print('Boonchoo', 'Love', 'Python')
 print("'a' in 'program':", 'a' in 'program')  # True
 print("'at' not in 'battle':", 'at' not in 'battle')  # False
 
@@ -152,7 +159,7 @@ print("Tab example:")
 print("Column1\tColumn2\tColumn3")
 
 print("Backslash example:")
-print("Path: C:\\Users\\Python")
+print("Path: C:\\Users\\Python") # Path: C:\Users\Python
 
 print("Quote examples:")
 print('He said, "What\'s there?"')
@@ -174,7 +181,10 @@ print("\n=== STRING FORMATTING ===")
 name = "ashish"
 age = 8
 print("Using %% formatting:")
-print("name=%s and age=%d" % (name, age))
+
+printf("name=%s and age=%d, %.2f", name, age, gpa)
+print("name=%s and age=%d, %.2f" % (name, age, gpa))
+
 print("name=%s and age=%d" % ("ankita", 6))
 
 # .format() method
@@ -185,9 +195,11 @@ sal = 20000
 
 # Different format styles
 str1 = '{},{},{}'.format(id_num, name, sal)
+str1 = f'{id_num},{name},{sal}'
 print(str1)  # 10,shankar,20000
 
 str2 = '{} - {} - {}'.format(id_num, name, sal)
+str2 = f"{id_num} - {name} - {sal}"
 print(str2)  # 10 - shankar - 20000
 
 str3 = 'id={}\nname={}\nsal={}'.format(id_num, name, sal)
@@ -215,7 +227,7 @@ print(f"Ends with 'python': {text.endswith('python')}")
 
 # Modification methods
 print(f"Replace 'python' with 'java': {text.replace('python', 'java')}")
-words = text.split()
+words = text.split() # ['welcome', 'to', 'the', 'world', 'of', 'java']
 print(f"Split into words: {words}")
 print(f"Join with '-': {'-'.join(words)}")
 
@@ -269,7 +281,6 @@ for comparison, result in comparisons:
 print("\n=== STRING SLICING ===")
 text = "python"
 print(f"Original string: {text}")
-
 # Basic slicing
 print(f"text[1:5] = {text[1:5]}")  # ytho
 print(f"text[:6] = {text[:6]}")    # python
